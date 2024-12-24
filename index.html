@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+   
+    <div>
+        <div class="calc">
+            <div class="screen">
+                <input type="text" id="sc1">
+            </div>
+            <div class="buttons">
+                <button class="btn" onclick="cleared()">Clear</button>
+                <div class="row">
+
+                    <button class="btnclr" onClick="buttonClick(7)">7</button>
+                    <button class="btnclr" onClick="buttonClick(8)">8</button>
+                    <button class="btnclr" onClick="buttonClick(9)">9</button>
+                    <button class="btnclr" onClick="buttonClick('+')">+</button>
+
+                </div>
+                <div class="row">
+
+                    <button  onClick="buttonClick(4)" class="btnclr">4</button>
+                    <button  onClick="buttonClick(5)" class="btnclr">5</button>
+                    <button  onClick="buttonClick(6)" class="btnclr">6</button>
+                    <button  onClick="buttonClick('-')" class="btnclr">-</button>
+                </div>
+                <div class="row">
+
+                    <button  onClick="buttonClick(1)" class="btnclr">1</button>
+                    <button  onClick="buttonClick(2)" class="btnclr">2</button>
+                    <button  onClick="buttonClick(3)" class="btnclr">3</button>
+                    <button  onClick="buttonClick('*')" class="btnclr">x</button>
+                </div>
+                <div class="row">
+                    <button  onClick="buttonClick(0)" class="btnclr">0</button>
+                    <button  onClick="buttonClick('.')" class="btnclr">.</button>
+                    <button  onClick="buttonClick('/')" class="btnclr">/</button>
+                    <button  onclick="buttonequal()" class="btnclr">=</button>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
